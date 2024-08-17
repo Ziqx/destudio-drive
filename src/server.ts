@@ -6,7 +6,7 @@ config({ path: path.resolve(__dirname, '../.env') });
 
 const server = new NextDriveServer(
     {
-        port: 4003,
+        port: 4004,
         apiKey: process.env.API_KEY!,
         options: {
             cors: true
